@@ -33,6 +33,7 @@ main{
 main>p{
     min-width: 100%;
     color: #b4b4b4;
+
 }
 
 aside, article{
@@ -48,7 +49,6 @@ aside{
 
 article{
     width: 60%;
-
 }
 
 section{
@@ -68,10 +68,10 @@ address{
     body{
        background-color: pink;
        padding: 10px 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Georgia', serif;
     }
     main, header, nav, footer{
-        background-color: rgb(197, 76, 96);
+        background-color: rgb(226, 144, 158);
     }
     
 }
@@ -80,10 +80,10 @@ address{
     body{
        background-color: pink;
        padding: 30px 40px;
-       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-family: 'Georgia', serif;
     }
     main, header, nav, footer{
-        background-color: rgb(197, 76, 96);
+        background-color: rgb(226, 144, 158);
     }
     
 }
@@ -92,20 +92,21 @@ address{
     body{
        background-color: pink;
        padding: 30px 60px;
-       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-family:'Georgia', serif;
     }
     main, header, nav, footer{
-        background-color: rgb(197, 76, 96);
+        background-color: rgb(226, 144, 158);
     }
     
 }
 
 figcaption{
-    background-color: rgb(197, 76, 96);
+    background-color: rgb(226, 144, 158);
     color:black;
     padding: 5px;
     width: 400px;
     text-align: center;
+    border-radius: 8px;
 }
 
 figure{
@@ -113,4 +114,41 @@ figure{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 15px;
 }
+
+.contact-section {
+padding: 80px 10%;
+width: 1000px;
+
+}
+
+.contact-form {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.form-group {
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.form-group label {
+font-size: 0.95rem;
+font-weight: 500;
+}
+
+.form-group input, .form-group textarea {
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 1rem;
+background-color: #fafafa;
+}
+
+.footer {
+    text-align: center;
+}
+
